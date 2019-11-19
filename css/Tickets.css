@@ -1,0 +1,92 @@
+html {
+    /*Background*/
+    background-image: linear-gradient(#00FFFF, #0000FF)
+}
+
+.navBarHover:hover {
+    /*Visual representation of clickable area*/
+    cursor: pointer;
+}
+
+p {
+    /*paragraph text edit*/
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    /*Title text edit*/
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+#adcontainer {
+    /*Side ad container positioning*/
+    height: 700px;
+    max-width: 30%;
+    float: left;
+    margin-top: 50px;
+}
+
+.adb {
+    /*ad boxes*/
+    height: 200px;
+    width: 400px;
+    margin-top: 30%;
+    border-style: groove;
+    border-radius: 35px;
+}
+
+.ad {
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+}
+
+#tickets {
+    /*Ticket container*/
+    width: 50%;
+    height: 700px;
+    float: right;
+    border-style: groove;
+    border-radius: 35px;
+    background-color: orange;
+    opacity: 90%;
+    margin-top: 50px;
+}
+
+
+.ticks {
+    /*number of tickets container*/
+    width: 30px;
+    height: 30px;
+}
+
+#ttable {
+    /*Sets text center and width/height of table*/
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    /*Footer background colour*/
+    background-color: rgb(23, 189, 245);
+}
+
+#ftable {
+    /*footer Table edit*/
+    background-color: orange;
+    max-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.simage {
+    /*Restricts image of social media*/
+    max-width: 100px;
+    max-height: 100px;
+}

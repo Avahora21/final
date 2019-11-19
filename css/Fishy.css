@@ -1,0 +1,79 @@
+.pinugmini {
+    /*Title containers*/
+    height: 60pt;
+    width: 190pt;
+    border-style: groove;
+    border-radius: 35px;
+    margin-left: 25px;
+    margin-top: 3%;
+    background-color: rgb(23, 189, 245);
+}
+
+.pinugcontent {
+    /*Text container*/
+    border-radius: 35px;
+    border: groove 1px black;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 25%;
+    min-width: 25%;
+    background-color: rgb(23, 189, 245);
+}
+
+.pinugimage {
+    /*Image Container*/
+    max-width: 100%;
+    min-height: 100%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+html {
+    /*Background*/
+    background-image: linear-gradient(#00FFFF, #0000FF)
+}
+
+.navBarHover:hover {
+    /*Visual representation of clickable area*/
+    cursor: pointer;
+}
+
+p {
+    /*paragraph text edit*/
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    line-height: 100%
+}
+
+h1,
+h2,
+h3 {
+    /*Title text edit*/
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+footer {
+    /*Footer background colour*/
+    background-color: rgb(23, 189, 245);
+}
+
+#ftable {
+    /*footer Table edit*/
+    background-color: #ff8300;
+    max-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.simage {
+    /*Restricts image of social media*/
+    max-width: 100px;
+    max-height: 100px;
+}

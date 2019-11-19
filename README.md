@@ -1,2 +1,1 @@
-# final
-demo
+# Crappy as Web Project
