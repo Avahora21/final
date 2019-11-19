@@ -1,0 +1,444 @@
+<html>
+<title>Kidz Center</title>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background-image: linear-gradient(#00FFFF, #0000FF);
+        }
+
+        .navBar {
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+
+        .navBar a {
+            float: left;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        p {
+            font-family: 'Hind Guntur', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Luckiest Guy', cursive;
+        }
+
+        .center-div {
+            margin: 0 auto;
+            max-width: 700px;
+        }
+
+        .banner {
+            border-style: groove;
+            border-radius: 35px;
+            height: 100px;
+            width: 1030px
+        }
+
+        .padding {
+            padding-bottom: 15px;
+            margin: 5px;
+            border-radius: 35px;
+        }
+
+        .dropdown {
+            float: left;
+            position: relative;
+        }
+
+        .drop-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            z-index: 1;
+        }
+
+        .pingumini {
+            height: 60pt;
+            width: 95%;
+            border-style: groove;
+            border-radius: 35px;
+            margin-left: 25px;
+        }
+
+        .pingucontent {
+            border-radius: 35px;
+            border: groove 1px black;
+            float: left;
+            margin-left: 15%;
+            max-height: 600px;
+            min-height: 600px;
+            max-width: 25%;
+            min-width: 25%;
+        }
+
+        .pinguimage {
+            max-height: 100%;
+            min-height: 100%;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+            max-width: 100;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+
+        #attraction {
+            width: 100%;
+            height: 30%;
+            float: right;
+            border-style: groove;
+            border: groove 1px black;
+            border-radius: 35px;
+            margin-top: 3%;
+        }
+
+        .ad {
+            height: 30%;
+            width: 100%;
+            float: left;
+            border-style: groove;
+            border-radius: 5px;
+        }
+
+        .bottombar {
+            width: 500px
+        }
+
+        .Pingupadding {
+            Padding-top: 10px;
+        }
+
+        .margin {
+            margin-top: 10px;
+        }
+
+        .adcontainer {
+            height: 30px;
+            max-width: 30%;
+            float: left;
+            margin-top: 20px;
+        }
+
+        .adcontainer {
+            margin-top: 20px;
+            height: 30px;
+            width: 30%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar background -->
+    <div style="background-color: #ffffff; width: 100%; height: 180px; position: fixed; z-index: 1;"></div>
+    <!-- navbar container -->
+    <div style="position: fixed; width: 100%; z-index: 2;">
+        <!-- navbar left padding -->
+        <div style="float: left; width: 10%;height: 140px;"></div>
+        <!-- navbar content -->
+        <div style="width: 80%; height: 120px; float: left">
+            <h2>
+                <!-- navbar structure -->
+                <table style="width: 100%; height: 100%" border="0px">
+                    <tr class="center">
+                        <!-- logo -->
+                        <td rowspan="2" class="navBarHover" style="width: 15%;"
+                            onclick="location.href = 'homepage.html'">
+                            <img class="imgMiddle center" src="Images/Pingu.png" alt="wetzoo logo"
+                                style="height: 120px;">
+                            WetZoo
+                        </td>
+                        <!-- attractions -->
+                        <td rowspan="2" class="navBarHover" style="width: 10%;"
+                            onclick="location.href = 'attractions.html'">
+                            <center>
+                                Attractions
+                            </center>
+                        </td>
+                        <!-- Events -->
+                        <td rowspan="2" class="navBarHover" style="width: 10%;" onclick="location.href = 'events.html'">
+                            <center>
+                                Events
+                            </center>
+                        </td>
+                        <!-- Gallery -->
+                        <td rowspan="2" class="navBarHover" style="width: 10%;"
+                            onclick="location.href = 'gallery.html'">
+                            <center>
+                                Gallery
+                            </center>
+                        </td>
+                        <!-- Fishy Facts -->
+                        <td rowspan="2" class="navBarHover" style="width: 10%;" onclick="location.href = 'Fishy.html'">
+                            <center>
+                                Fishy Facts
+                            </center>
+                        </td>
+                        <!-- News -->
+                        <td rowspan="2" class="navBarHover" style="width: 10%;" onclick="location.href = 'News.html'">
+                            <center>
+                                News
+                            </center>
+                        </td>
+                        <!-- Shop -->
+                        <td rowspan="2" class="navBarHover" style="width: 10%;" onclick="location.href = 'Shop.html'">
+                            <center>
+                                Shop
+                            </center>
+                        </td>
+                        <!-- location + icon -->
+                        <td class="navBarHover" style="height: 50%;width: 5%;" onclick="location.href = 'contact.html'">
+                            <img src="Images/contact icon.png" alt="contact" style="height: 25px;">
+                        </td>
+                        <!-- tickets -->
+                        <td rowspan="2" class="navBarHover"
+                            style="width: 15%; background-color: #ff8300; border-radius: 35px;"
+                            onclick="location.href = 'tickets.html'">
+                            <center>
+                                Tickets
+                            </center>
+                        </td>
+                    </tr>
+                    <tr class="center">
+                        <!-- location + icon -->
+                        <td style="height: 50%;width: 5%;" class="navBarHover"
+                            onclick="location.href = 'location.html'">
+                            <img src="Images/location icon.png" alt="location" style="height: 25px;">
+                        </td>
+                    </tr>
+                </table>
+            </h2>
+        </div>
+        <!-- right navbar padding -->
+        <div style="float: left; width: 10%;height: 140px;"></div>
+    </div>
+    <br>
+    <div style="float: left; width: 10%;height: 140px;"></div>
+    <div style="height: 100px; width: 100%">
+        <div style="height: 100%; width: 10%; float: left"></div>
+        <div style="height: 100%; width: 80%; float: left">
+            <div style=" width: 100%; height: 100px">
+                <div id="banner"></div>
+            </div>
+        </div>
+        <div style="height: 100%; width: 10%; float: left"></div>
+    </div>
+</body>
+</div>
+</head>
+
+    <div class="adcontainer"></div>
+    <div class="ad">
+        <div style="height: 70%; width: 100%;">
+            <img class="" src="">
+            <div style="margin-top: 50px;"></div>
+
+            <body style="text-align:center;"></body> We also have an attraction for the kidz where they can play with
+            other kidz on the playground or draw. In our kidz centre we have a great playground where your child can
+            play with other kidz. while their parents and caregivers are going around visiting the marine Aquatic
+            sealife. Our kidz centre is also a place where your kid can celebrate their birthday party by playing on the
+            playground and at the same time they will also be able to see the sea life animals. All those setups,
+            entertainments, food and photo packs will also be provided by our friendly aquarium team. The kidz area will
+            always be supervised by and adult.
+        </div>
+    </div>
+</body>
+</div>
+<div class="adcontainer"></div>
+<div class="ad">
+    <div style="height: 70%; width: 100%;">
+        <img class="" src="">
+        <div style="margin-top: 50px;"></div>
+
+        <body style="text-align:center;"></body> Your kidz birthday arty at the WETZOO includes a guided aquarium tour
+        and a party host that will look after your guests.
+        <b>Kidz birthday party includes:</b> A full day filled with activities at our WETZOO aquarium. A party host that
+        will look after the kidz requirements and will take good care of them. Discounts for any purchases from gift
+        shops. A special gift for the birthday kid. 2 Whole hours in which your child can enjoy their birthday with
+        their friends.
+        <b>Party time session:</b> Saturdays and Sundays 10:00 AM, 1:00 PM or 3:00 PM.
+    </div>
+</div>
+
+
+<div style="margin-top: 500px;"></div>
+<div class="pingucontent" style="width: 50px; height: 100px;">
+    <div style="height: 60%; width: 100%;">
+        <img class="" src="Images/Kidzbirthday.jpg">
+    </div>
+    <div style="height: 30%; width: 100%; border-top-style:solid;">
+        <div style="margin-top: 50px;"></div>
+        A full day filled with activities at our WETZOO aquarium. A party host that will look after Kidz requirements
+        and will tke care of them. Discounts for any purchases from gift shops. A special gift for the birthday Kid.
+    </div>
+</div>
+</body>
+
+<div class="margin-top: 10px">
+
+    <table id="ftable">
+        <th>Fun Stuff</th>
+        <th>General</th>
+        <th>Check out our Social Media</th>
+        <tr>
+            <td><a href="Attractions.html">Attractions</a></td>
+            <td><a href="Index.html">Home</a></td>
+
+
+            <div style="height: 100%; width: 10%; float: left"></div>
+</div>
+
+</html>
+<br>
+<div style="margin-top: 300px;"></div>
+<table id="ftable">
+    <th>Fun Stuff</th>
+    <th>General</th>
+    <th>Check out our Social Media</th>
+    <tr>
+        <td><a href="Attractions.html">Attractions</a></td>
+        <td><a href="Index.html">Home</a></td>
+
+
+        <div style="height: 100%; width: 10%; float: left"></div>
+        </div>
+        <footer>
+            <table id="ftable">
+                <th>Fun Stuff</th>
+                <th>General</th>
+                <th>Check out our Social Media</th>
+                <tr>
+                    <td><a href="Attractions.html">Attractions</a></td>
+                    <td><a href="Index.html">Home</a></td>
+                    <td rowspan="3"><a href="https://www.facebook.com"><img class="simage"
+                                src="Images/Facebook.png"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="Fishy.html">Fishy Facts</a></td>
+                    <td><a href="contact.html">Contact US</a></td>
+                </tr>
+                <tr>
+                    <td><a href="News.html">News</a></td>
+                    <td><a href="Staff.html">Staff</a></td>
+                </tr>
+                <tr>
+                    <td><a href="kidz centre.html">Kidz Center</a></td>
+                    <td><a href="Events.html">Events</a></td>
+                    <td rowspan="3"><a href="https://Twitter.com"><img class="simage" src="Images/Twitter.png"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="Gallery.html">Gallery</a></td>
+                    <td><a href="About.html">About us</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=""></a>
+                    </td>
+                    <td>
+                        <a href="Store.html">Store</a>
+                    </td>
+                </tr>
+            </table>
+
+</html>
+<div style=" width: 100%; height: 300px"></div>
+
+

@@ -1,0 +1,260 @@
+html {
+    background-image: linear-gradient(#00FFFF, #0000FF);
+}
+
+.navBar {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.navBar a {
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.center-div {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.banner {
+    border-style: groove;
+    border-radius: 35px;
+    height: 100px;
+    width: 1030px
+}
+
+.padding {
+    padding-bottom: 15px;
+    margin: 5px;
+    border-radius: 35px;
+}
+
+.dropdown {
+    float: left;
+    position: relative;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.pingumini {
+    height: 60pt;
+    width: 95%;
+    border-style: groove;
+    border-radius: 35px;
+    margin-left: 25px;
+}
+
+.pingucontent {
+    border-radius: 15px;
+    border: groove 1px black;
+    float: left;
+    margin-left: 0%;
+    max-height: 700px;
+    min-height: 700px;
+    max-width: 25%;
+    min-width: 25%;
+}
+
+.pinguimage {
+    max-height: 100%;
+    min-height: 100%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+#attraction {
+    width: 100%;
+    height: 30%;
+    float: right;
+    border-style: groove;
+    border: groove 1px black;
+    border-radius: 35px;
+    margin-top: 3%;
+}
+
+.ad {
+    height: 50%;
+    width: 100%;
+    float: left;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.bottombar {
+    width: 500px
+}
+
+.Pingupadding {
+    Padding: top 10px;
+    ;
+}
+
+.adcontainer {
+    height: 700px;
+    max-width: 30%;
+    float: left;
+    margin-top: 50px;
+}
+
+.adcontainer {
+    margin-top: 120px;
+    height: 400px;
+    width: 30%;
+}
+
+.ooter {
+    background-color: rgb(23, 189, 245);
+}
+
+footer {
+    background-color: rgb(23, 189, 245);
+}
+
+#ftable {
+    background-color: orange;
+    max-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ftable {
+    background-color: orange;
+    max-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#social {
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#social {
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.simage {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.simage {
+    max-width: 100px;
+    max-height: 100px;
+}

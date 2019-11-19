@@ -1,9 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/attractions.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/universal.css">
-    <title>Attractions</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Gallery</title>
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap" rel="stylesheet">
 </head>
@@ -92,130 +96,87 @@
         <!-- right navbar padding -->
         <div style="float: left; width: 10%;height: 140px;"></div>
     </div>
-    <div style="float: left; width: 10%;height: 140px;"></div>
-    <div style="height: 100px; width: 100%">
+    <!-- navbar padding to move the body content down -->
+    <div style="height: 200px; width: 100%;"></div>
+    <!-- body container -->
+    <div style="height: 800px; width: 100%">
+        <!-- left padding -->
         <div style="height: 100%; width: 10%; float: left"></div>
+        <!-- body content -->
         <div style="height: 100%; width: 80%; float: left">
-            <div style=" width: 100%; height: 100px">
+            <!-- slideshow container -->
+            <div style="width: 100%; height: 800px">
+                <!-- slideshow title -->
+                <h1 style="text-align:center">Slideshow Gallery</h1>
+                <!-- slides container -->
+                <div class="container">
+                    <!-- slides -->
+                    <div class="mySlides center">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="Images/Flappy.jpg" class="imgStyle">
+                    </div>
+                    <div class="mySlides center">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="Images/Hula.jpg" class="imgStyle">
+                    </div>
+                    <div class="mySlides center">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="Images/Snob.jpg" class="imgStyle">
+                    </div>
+                    <div class="mySlides center">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="Images/FakeShark.jpg" class="imgStyle">
+                    </div>
+                    <div class="mySlides center">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="Images/Ball.jpg" class="imgStyle">
+                    </div>
+                    <div class="mySlides center">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="Images/SharkyShark.jpg" class="imgStyle">
+                    </div>
+                    <!-- arrows to change slides -->
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    <!-- captions -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                    <!-- preview images -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor imgLevel" src="Images/Flappy.jpg" style="width:100%"
+                                onclick="currentSlide(1)" alt="Penguin flapping it's wings">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor imgLevel" src="Images/Hula.jpg" style="width:100%"
+                                onclick="currentSlide(2)" alt="A dolphin spinning two hula hoops on it's nose">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor imgLevel" src="Images/Snob.jpg" style="width:100%"
+                                onclick="currentSlide(3)" alt="A sea lion enjoying the sun">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor imgLevel" src="Images/FakeShark.jpg" style="width:100%"
+                                onclick="currentSlide(4)" alt="Two dolphins playing together">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor imgLevel" src="Images/Ball.jpg" style="width:100%"
+                                onclick="currentSlide(5)" alt="Seal playing with it's favourite ball">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor imgLevel" src="Images/SharkyShark.jpg" style="width:100%"
+                                onclick="currentSlide(6)" alt="A shark passing by">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+        <!-- right side padding -->
         <div style="height: 100%; width: 10%; float: left"></div>
     </div>
-</div>
-</br>
-<html lang="en">
-<br>
-<div style="margin-top: 40px;"></div>
-
-    <div class="pingucontent">
-        <div style="height: 70%; width: 100%;">
-            <img class="pinguimage" src="Images/Stingray.jpg">
-            <div style="margin-top: 0px;"></div>
-        </div>
-        <div style="height: 50%; width: 100%; border-top-style:solid;">
-            <!--Change title for tile 1-->
-            <h2>Stingray</h2>
-            <!--Change text content here for tile 1-->
-        <body style="text-align:center;"></body> Stingrays get their name from the stinging barb at the base of
-        their tail. When they feel threatened Stingrays can whip up their tail to puncture their pursuer with their
-        spiny, venomous barb. They also like to bury themselves in the sand when they have to hide
-        from their own predators. The cost of this attraction is
-        going to be $20 per person. For family Price the cost is going to be $70.
-    </div>
-    </div>
-
-    <div style="margin-top: 10px;"></div>
-
-</div>
-
-
-    <div class="pingucontent" style="width: 50px; height: 100px;">
-        <div style="height: 49%; width: 100%;">
-            <img class="pinguimage" src="Images/Nemo.jpg">
-        </div>
-            <div style="height: 50%; width: 100%; border-top-style:solid;">
-                <!--Change title for tile 1-->
-                <h2>Clownfish</h2>
-                <!--Change text content here for tile 1-->
-            <div style="margin-top: 30px;"></div>
-            <p>Clown fish remembered well as they are seen in Nemo. they live in venomous tentacles of sea anemones. if a
-            clown fish is seen in the anemones the larger one is a female and the other is a male. once the female dies
-            the largest male will change sex. The cost of this attraction is going to be $20 per person. For family
-            Price the cost is going to be $70. </p>
-        </div>
-    </div>
-
-
-<div class="pingucontent">
-        <div style="height: 70%; width: 100%;">
-            <img class="pinguimage" src="Images/Snob.jpg">
-            <div style="margin-top: 0px;"></div>
-        </div>
-        <div style="height: 50%; width: 100%; border-top-style:solid;">
-            <!--Change title for tile 1-->
-            <h2>Sealion</h2>
-            <!--Change text content here for tile 1-->
-       <p>They can live an average of 30 years in captivity, while the
-        average life span in the wild is approximately 20 years. sealions are fast and agile swimmers, where they
-        can spend several days diving continually. when there are groups of sealions they can become very noisy and
-        their voice can be heard from far away. Thier long, broad
-        foreflippers allows them to walk on land. The cost of this attraction is going to be $20 per person. For
-        family Price the cost is going to be $70. </p>
-</div>
-</div>
-<div style="margin-top: 10px;"></div>
-</div>
-
-</div>
-<!--Title container-->
-<div style="margin-top: 50%;" class="pinugmini">
-</div>
-
-
-<div style="margin-top: 30px;"></div>
-
-
-    <div style="margin-top: 30px;"></div>
-    <div class="pingucontent" style="width: 50px; height: 100px;">
-        <div style="height: 60%; width: 100%;">
-            <img class="pinguimage" src="Images/Flappy.jpg">
-        </div>
-        <div style="height: 50%; width: 100%; border-top-style:solid;">
-            <!--Change title for tile 1-->
-            <h2>Penguins</h2>
-            <!--Change text content here for tile 1-->
-            <div style="margin-top: 20px;"></div>
-            Gentoo Penguins are flightless birds and are found in the southern hemisphere, therefore they need the
-            correct temperature. But they can soar through water. The black and White colour on their body is a form
-            camouflage and helps them keep safe from predators. The cost of this
-            attraction is going to be $20 per person. For family Price the cost is going to be $70.
-        </div>
-    </div>
-
-
-<br>
-
-<body>
-    <div class="pingucontent" style="width: 50px; height: 100px;">
-        <div style="height: 60%; width: 100%;">
-            <img class="pinguimage" src="Images/Dolphins1.jpg">
-            <div style="height: 10%; width: 100%; border-top-style:solid;">
-                    <!--Change title for tile 1-->
-                    <h2>Dolphin</h2>
-                    <!--Change text content here for tile 1-->
-                <div style="margin-top: 10px;"></div>
-                They are very intelligent and fun animals. A bottlenose dolphin’s life expectancy is 40-50 years and their average size is 6-12.5 feet long and
-                300-1400 pounds. Dolphins are warm blooded, they breath through their bottle, they hold their breath upto 7-8 mins,
-                they give birth every 3 years. The cost of this attraction is going to be $20 per person. For family
-                Price the cost is going to be $70.
-            </div>
-        </div>
-
-        
-    </div>
-</div>
-<div style="height: 200%; width: 10%; float: center"></div>
-</div>
+</body>
 
 <footer>
     <!--Table for website links-->
@@ -259,9 +220,39 @@
         </tr>
     </table>
 
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
 
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
 
-</footer>
-</body>
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
 
 </html>
